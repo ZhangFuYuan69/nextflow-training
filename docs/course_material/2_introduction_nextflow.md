@@ -195,7 +195,7 @@ workflow {
 
     main:
     hello_ch = hello_world()
-    copy_file(hello_ch.out)
+    copy_file(hello_ch)
 }
 ```
 
